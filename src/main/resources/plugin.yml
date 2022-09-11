@@ -1,25 +1,25 @@
-## CHANGE this to the name of your plugin.
+## CHANGE 更改此处为你的附属名称
 name: SlimefunAddon
 
-## CHANGE this to your username.
+## CHANGE 更改此处为你的名称
 author: CHANGEME
 
-## CHANGE this to a meaninful but short description of your plugin.
+## CHANGE 这是对你插件的介绍
 description: A generic Slimefun4-Addon
 
-## CHANGE this to the path of the class that extends JavaPlugin.
+## CHANGE 指向你的 JavaPlugin 主类
 main: me.CHANGEME.slimefunaddon.ExampleAddon
 
-## You can change this to link to your website or repository. You can also remove this line if you want to.
+## 你可以更改为你的项目仓库地址，或者你的个人网站。你也可以移除此项目。
 website: https://github.com/Slimefun/Addon-Template
 
-## This value is automatically replaced by the version specified in your pom.xml file.
-## Do not change this.
+## 该值将在构建时被自动替换为pom.xml中定义的版本。
+## 不要更改此项目。
 version: ${project.version}
 
-## This is the minimum minecraft version required to run your plugin.
+## 这是运行该附属所需的最低MC版本。
 api-version: 1.14
 
-## This is required and marks Slimefun as a plugin dependency.
+## 指定 Slimefun 作为依赖项，必须
 depend:
 - Slimefun
